@@ -1,0 +1,23 @@
+@font-face{
+	font-family: LoraRegular;
+	src: url('../font/LoraRegular.ttf');
+}
+
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url('../font/Montserrat-Regular.ttf');
+}
+
+@font-face{
+	font-family: BerkshireSwash-Regular;
+	src: url('../font/BerkshireSwash-Regular.ttf');
+}
+
+@font-face{
+	font-family: LoraItalic;
+	src: url('../font/LoraItalic.ttf');
+}
+@font-face{
+	font-family: LoraBold;
+	src: url('../font/LoraBold.ttf');
+}

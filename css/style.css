@@ -1,0 +1,674 @@
+body{
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 16px;
+	
+}
+/*HEADER*/
+header{
+   background-color: #f0c7c9;
+   background-image: url("../img/bg1.jpg");
+   height: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+background-position: center top;
+min-height: 57.75vw; 
+   margin:0;
+    padding: 0;
+}
+.navbar-header{
+	padding-top: 30px;
+}
+.menu{
+	list-style: none;
+    margin: 0;
+    padding-left:0;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.menu li{
+	display: inline-block;
+	 
+}
+
+.center-content
+{
+    text-align: center;
+}
+.menu li a{
+	color:#b4837e;
+	text-transform: uppercase;
+	font-family: Montserrat-Regular, sans-serif;
+	font-size: 13.86px;
+	letter-spacing: 3px;
+ display: block;
+     
+    padding: 0 25px;
+	
+}
+.menu li a p
+{
+    font-family: "Montserrat";
+    font: "Montserrat Regular";
+    font-size: 10pt;
+
+}
+#menuB{
+	padding: 0 70px;
+}
+
+.menu li a:hover, .menu li a:focus{
+	text-decoration: none;
+	color:#elelel;
+}
+.logo{
+	
+	width: 160px;
+}
+.headH{
+	 font-family: "Berkshire Swash";
+    color: #613c41;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 150px;
+}
+#colorH{
+color:#ec495e;
+}
+.headSub{
+ 
+    font-family: 'LoraRegular', serif;
+     
+    font-size: 14pt;
+    color:#613c41;
+    text-align:center;
+     
+}
+/*BUTTON*/
+.btn{
+	 text-align: center;
+    color: #fff;
+    background-color: #ec495e;
+	border: none;
+	text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 30px;
+    border: 2px solid #ec495e;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    margin-top: 15px;
+     
+}
+.btn2{
+	   text-align: center;
+    color: #fff;
+    background-color: #ec495e;
+	border: none;
+	text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 30px;
+    border: 2px solid #ec495e;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    margin-top: 15px;
+}
+.my_btn{
+    text-align: center;
+    color: white;
+    background-color: #ec495e;
+	border: none;
+	text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 30px;
+    border: 2px solid #ec495e;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px 17px;
+     font-family: "Montserrat";
+}
+
+	/*STEP BLOCK2*/
+
+ .step{
+    font-weight: 800;
+    font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 25px;
+    line-height: 1.6;
+}
+.stepP{
+    color: #9f9896;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.numbers_text {
+    font-style: normal;
+    font-family: 'BerkshireSwash-Regular', handwriting;
+    color: #ec495e;
+    font-size: 98px;
+    line-height: 0.5;
+    letter-spacing: 1px;
+   padding: 40px 10px;
+
+}
+h3{
+    font-family: 'BerkshireSwash-Regular', handwriting;
+    color: #613c41;
+    font-size: 40px;
+    line-height: 1;
+}
+.subtitle{
+    font-family: 'LoraRegular', serif;
+    color: #9f9896;
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: center;
+}
+
+#block2 {
+	padding-top: 118px;
+    padding-bottom: 120px;
+}
+
+#block2_1{
+	padding-bottom: 73px;
+	text-align: center;
+}
+
+/*Features BLOCK3*/
+#block3_1{
+	text-align: center;
+	padding-bottom: 73px;
+	padding-top: 110px;
+}
+
+#benefit{
+	font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+#block3_2{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.subtitle_b3{
+    font-family: 'LoraRegular', serif;
+    color: #9f9896;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.features{
+	background-color: #fff9ef;
+	padding-bottom: 100px;
+}
+.testimonial{
+	padding-top:100px;
+	background-color: white;
+	text-align: center;
+}
+
+#qm{
+	font-family: 'BerkshireSwash-Regular', cursive;
+	color: #a8756f;
+	
+	font-size: 76px;
+	font-style: italic;
+	
+}
+/*BLOCK 4*/
+.block4_1{
+padding-top: 210px;
+}
+#sub_b4{
+	font-family: 'LoraItalic', cursive;
+	font-size: 20px;
+	text-align: justify;
+color: #6b484d;}
+h4{
+font-family: 'BerkshireSwash-Regular', cursive;
+	color: #a8756f;
+	font-size: 28px;
+	font-style: italic;
+	text-align: left;
+	padding-top: 40px;
+}	
+.ads{
+	background-image: url("../img/bg2.jpg");
+	height: 406px;
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-position: center top;
+
+}
+/*BLOCK 5*/
+#block5_1{
+padding-top: 110px;
+text-align: center;
+}
+#b5col{
+	color:#ec495e;
+}
+
+
+.showcase{
+	background-color: white;
+	text-align: center;
+	padding-bottom: 70px;
+
+}
+
+#imgshw	{
+	 
+	height: 287px;
+	width: 350px;
+	padding-bottom: 20px;
+}
+
+/*SHWOCASE BLOCK6*/
+#block6_1{
+	padding-top:73px
+}
+#block6_2{
+	padding-top:10px	
+}
+
+/*TEAM BLOCK7*/
+.team{
+	text-align: center;
+	background-color: #f6f6f6;
+	padding-bottom: 100px;
+}
+#block7_1{
+padding-top: 50px;
+}
+#teamM{
+ font-family: 'LoraBold', serif;
+    color: #613c41;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+    padding-top: 20px;
+}
+#teamSub{
+	font-family: 'LoraItalic', cursive;
+	font-size: 16px;
+	text-align: center;
+  color: #9f9896;
+}
+#teamText{
+	font-family: 'LoraRegular', serif;
+    color: #616161;
+    font-size: 16px;
+     padding: 15px 0;
+    text-align: center;
+
+}
+
+.fa-facebook{
+	color: #ec495e;
+	padding: 10px;
+}
+.fa-twitter{
+	color: #ec495e;
+	padding: 10px;
+}
+.fa-google-plus{
+	color: #ec495e;
+	padding: 10px;
+}
+.fa-instagram{
+	color: #ec495e;
+	padding: 10px;
+}
+.fa-vk{
+	color: #ec495e;
+	padding: 10px;
+}
+
+/*PROMOTE BLOCK8*/
+.promself{
+		background-color: #f5d7d7;
+}
+#prom{
+	padding-top: 60px;
+	height: auto;
+
+}
+#subProm{
+	font-family: 'LoraRegular', serif;
+    color: #9f9896;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+#promInfo{
+	font-family: 'LoraRegular', serif;
+	color: #bd8f8b;
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+#promName{
+	font-family: 'LoraBold', serif;
+	font-size: 25px;
+	color: #613c41;
+
+}
+/*TELLMORE BLOCK9*/
+.tellMore{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 70px;
+}
+
+#aboutT{
+font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 26px;
+    text-align: left;
+    padding-top: 40px;	
+}
+#aboutInfo{
+font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 16px;
+    text-align: left;	
+    
+}
+
+#aboutImg{
+	height: 550px;
+	text-align: center;
+padding-top: 40px;
+padding-bottom: 20px;
+}
+
+.numbers{
+	text-align: center;
+	background-color: #fbf3f3;
+	padding-bottom: 60px;
+}
+
+#number{
+	font-style: normal;
+    font-family: 'BerkshireSwash-Regular', handwriting;
+    color: #ec495e;
+    font-size: 108px;
+    line-height: 0.5;
+    letter-spacing: 1px;
+    padding-bottom: 45px;
+}
+/*CONTACT BLOCK11*/
+/*БЛОК 11 ПРОДОЛЖИТЬ*/
+.contact{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 85px;
+}
+.list11 {
+	font-size: 40px;
+	color: #ec495e;
+	text-align: left;
+line-height: 1;
+list-style-type: none;
+}
+.c1 {
+	 list-style-image: url(../img/ico1.png);
+}
+.c2 {
+	 list-style-image: url(../img/ico2.png);
+}
+.c3 {
+	 list-style-image: url(../img/ico3.png);
+}
+.c4 {
+	 list-style-image: url(../img/ico4.png);
+}
+
+
+#contactH{
+font-family: 'LoraRegular', serif;
+	color: #bd8f8b;
+	font-size: 16px;
+	padding-left: 20px;
+}
+#contactSub{
+font-family: 'LoraRegular', serif;
+	color: #613c41;
+	font-size: 24px;
+	padding-left: 20px;	
+}
+.contactS2{
+font-family: 'LoraRegular', serif;
+	color: #613c41;
+	font-size: 24px;		
+}
+.list11 li a{
+	color: #ec495e;
+	font-family: 'Myriad Pro', serif;
+}
+.list11 li a:hover, .list11 li a:focus{
+	text-decoration: none;
+	color:#elelel;
+}
+
+/*TIMELINE BLOCK12*/
+.timeline{
+	text-align: center;
+	background-color: #fbf3f3;
+	padding-bottom: 80px;
+}
+
+#timeH{
+font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 24px;
+    text-align: left;	
+}
+#timeInfo{
+font-family: 'LoraRegular', serif;
+    color: #9f9896;
+    font-size: 16px;
+    text-align: left;	
+}
+
+/*BLOCK 13 PRICE*/
+.price{
+	text-align: center;
+	padding-bottom: 100px;
+}
+.priceSub{
+font-family: 'LoraRegular', serif;
+    color: #9f9896;
+    font-size: 16px;
+ }
+ .pricing_table{ 
+border: 1px solid #b8b3b2; 
+background-color: rgba(227,227,227,0.15); 
+} 
+.plan_header{ 
+font-family: 'Berkshire Swash', handwriting; 
+color: #613c41; 
+font-size: 28px; 
+line-height: 1; 
+padding-top: 76px; 
+text-align: center; 
+} 
+.best_choice{ 
+background-color: #95c126; 
+border-color: #fff; 
+border-bottom-left-radius: 15px; 
+border-bottom-right-radius: 15px; 
+} 
+.p_best_choice { 
+text-align: center; 
+font-family: 'Montserrat', sans-serif; 
+color: #fff; 
+font-size: 12px; 
+line-height: 3; 
+letter-spacing: 2px; 
+} 
+.pricing_option{ 
+color: #613c41; 
+font: 400 18px / 40px Lora; 
+line-height: 2.2; 
+} 
+.plan_hr{ 
+border-top: 2px solid rgba(184,179,178,0.5); 
+width: 16%; 
+margin: 0 auto; 
+padding-bottom: 30px; 
+}
+._divider { 
+border-top: 1px solid #b8b3b2; 
+width: 100%; 
+}
+.fa-check{
+color: #f0b270;
+}
+ 
+
+/*BLOCK 14 CAREER*/
+
+.career{
+	text-align: center;
+	background-color: #fff9ef;
+	padding-bottom: 80px;
+}
+#block14_1{
+	padding-bottom: 40px;
+}
+#careerH{
+font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 24px;
+
+}
+#careerSub{
+font-family: 'LoraRegular', serif;
+    color: #b9b2ae;
+    font-size: 16px;	
+}
+.career  a{
+	color: #ec495e;
+	font-family: 'Montserrat', serif;
+	text-transform: uppercase;
+letter-spacing: 5px;
+font-size: 14px;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color:#elelel;
+}
+#careerA{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+/*BLOCK 15 FEATURED PRODUCT*/
+
+.featuredProd{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+#cake{
+	height: auto;
+}
+.featuredH{
+font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 24px;
+    padding-bottom: 30px;	
+}
+.featuredSub{
+	font-family: 'LoraRegular', serif;
+    color: #b9b2ae;
+    font-size: 16px;
+    text-align: left;
+     padding-bottom: 30px;
+}
+.featPrice{
+font-family: 'BerkshireSwash-Regular', serif;	
+font-size: 50px;
+color:#ec495e;
+text-align: left;
+padding-left: 10px;
+}
+
+.btn4{
+
+	   text-align: left;
+    color: #fff;
+    background-color: #ec495e;
+	border: none;
+	text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 30px;
+    border: 2px solid #ec495e;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 20px 30px;
+    margin-top: 15px;
+}
+/*BLOCK 16 PARTNERS*/
+
+.partners{
+	text-align: center;
+	background-color: #f8f7f6;
+	padding:90px 0;
+}
+
+/*BLOCK 17 QUESTIONS*/
+.questions{
+	text-align: center;
+
+}
+.faqH{
+font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 24px;	
+    text-align: left;
+}
+.faqSub{
+font-family: 'LoraRegular', serif;
+    color: #9f9896;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 80px;	
+}
+
+/*FOOTER*/
+.main-footer{
+	background-color: #f5d6d6;
+	text-align: center;
+	padding:50px 0;
+}
+.ftH{
+font-family: 'LoraRegular', serif;
+    color: #613c41;
+    font-size: 16px;
+    padding-top: 20px;	
+}
+
